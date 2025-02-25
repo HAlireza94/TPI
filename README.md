@@ -4,4 +4,5 @@ Here is a simple method to implement test particle insertion (TPI) to estimate e
 Considering the number of snapshots and the number of insertions, in this code, I used parallelized computing of energy difference generated from inserting a virtual atom randomly. I also have automized this approach using bash script, "config". By executing config, you can achieve excess chemical potentials of your interest system.  
 
 ## Results
+Here the results for the noble gas group where you can see the calculated excess chemical potential using the test particle insertion method. As can be seen, we are in a good agreement with the experimental data.
 <img width="561" alt="Image" src="https://github.com/user-attachments/assets/8fb058a5-7f95-49a6-8e98-2904939b0f0a" />
