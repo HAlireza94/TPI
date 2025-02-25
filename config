@@ -1,5 +1,9 @@
 #!/bin/bash
 
+echo " a OW " | gmx make_ndx -f conf.gro
+echo " q "
+echo " 3 " | gmx trjconv -f prd.xtc -s prd.tpr -n index.ndx -b 0 -o out.gro 
+
 rm Results
 T=298.15
 numWater=266
