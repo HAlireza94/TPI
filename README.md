@@ -35,8 +35,8 @@ Recently, I focused on optimizing two important gases in the world, CO2 and H2S.
 
 ### References:
 [1] https://pubs.acs.org/doi/10.1021/jp204908d  
-[2] https://doi.org/10.1016/j.fluid.2016.08.002
-[3] https://link.springer.com/book/10.1007/978-1-4757-6550-2
-[4] https://doi.org/10.1063/1.2121687
+[2] https://doi.org/10.1016/j.fluid.2016.08.002  
+[3] https://link.springer.com/book/10.1007/978-1-4757-6550-2  
+[4] https://doi.org/10.1063/1.2121687  
 [5] https://pubs.acs.org/doi/10.1021/jp410865y
 
