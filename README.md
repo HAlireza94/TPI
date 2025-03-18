@@ -15,8 +15,7 @@ The release of carbon dioxide from fossil fuel combustion is a significant contr
 
 
 ## Results
-Recently, I focused on optimizing two important gases in the world, CO2 and H2S. I started calculating excess chemical potential as a function of temperature in TIP4P/2005 water model, and then I tried to optimize the cross interactions at the ambient temperature and atmospheric pressure, where I could show that my results are describing efficiently the solubility of these gases at those conditions I mentioned, compared to the experimental data. Also, this is an ongoing – side project I started.
-solubility 
+To assess the performance of the current molecular parameters the excess chemical potentials of these gases in two water models, including TIP4P/2005[4] and TIP4P-epsilon[5], are calculated over 50,000 sampled frames from pure solvents by inserting 10,000 times each solute per frame. The estimated uncertainty is computed using blocking average. As can be seen from Fig 1, There are some key findings to take as follows:  
 - Both become more insoluble by increasing temperature.
 - Over the entire temperature range, H2S is more soluble than CO2.
 - Close to the critical temperature of CO2, employed cross interactions still represent CO2 is soluble in water.
