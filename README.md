@@ -10,3 +10,9 @@ Here the results for the noble gas group where you can see the calculated excess
 
 
 # Excess Chemical Potential of CO2 and H2S in Water  
+
+
+
+
+
+## Results
