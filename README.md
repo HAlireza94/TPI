@@ -6,3 +6,7 @@ Considering the number of snapshots and the number of insertions, in this code, 
 ## Results
 Here the results for the noble gas group where you can see the calculated excess chemical potential using the test particle insertion method. As can be seen, we are in a good agreement with the experimental data.
 <img width="561" alt="Image" src="https://github.com/user-attachments/assets/8fb058a5-7f95-49a6-8e98-2904939b0f0a" />
+
+
+
+# Excess Chemical Potential of CO2 and H2S in Water  
