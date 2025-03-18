@@ -26,7 +26,7 @@ To optimize cross interactions at 298.15 K and 1 atm, I used the following appro
 <img width="482" alt="Image" src="https://github.com/user-attachments/assets/c3e9ca86-f124-41a7-9be4-d47491b74ff4" />
 
 
-The obtained results are shown in Fig 2. According to this approach, it seems that the optimum chai value is ----- and -------- for CO2 and H2S, respectively.
+The obtained results are shown in Fig 2. According to this approach, it seems that the optimum chai value is +0.021 and -0.039 for CO2 and H2S, respectively.
 
 
 
