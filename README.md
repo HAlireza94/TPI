@@ -16,8 +16,10 @@ Here the results for the noble gas group where you can see the calculated excess
 
 
 ## Results
+
+### Fig 1- Calculated excess chemical potential of CO2 and H2S as a function of temperature in two different water models, TIP4P/2005 and TIP4P-epsilon.
 <img width="1005" alt="Image" src="https://github.com/user-attachments/assets/46aac0aa-4bee-4205-a784-b95e72b93b76" />
 
 
-
+### Fig 2- 
 <img width="1085" alt="Image" src="https://github.com/user-attachments/assets/e2ac6359-8da6-4d14-b995-f9d1176b8ec3" />
