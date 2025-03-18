@@ -1,8 +1,0 @@
-#!/bin/bash
-
-
-for((i=0;i<11;i++));do
-
-	sbatch job-t$i.sh
-
-done
