@@ -21,6 +21,7 @@ solubility
 - Over the entire temperature range, H2S is more soluble than CO2.
 - Close to the critical temperature of CO2, employed cross interactions still represent CO2 is soluble in water.
 - Comparing the results at the ambient temperature and atmospheric pressure, the excess chemical potentials of CO2 and H2S are both underestimated.
+- The excess chemical potentials of CO2 and H2S in TIP4P/2005 and TIP4P-epsilon show almost the same, no wonder that in this test particle insertion, I did not first take into account the dissociation of CO2 in water. Besides, for united atoms, electrostatic interactions are not considered. This means electrostatic interactions play a great role in accurately describing the solubulity. Because of this, free energy calculations using Thermodynamic integration is recommended to study the effect of applying a water model that has a more realistic dielectric constant.
 
 
 
