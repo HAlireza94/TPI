@@ -35,7 +35,7 @@ The obtained results are shown in Fig 2. According to this approach, it seems th
 
 
   
-#### Figure 2- Calculated excess chemical potential of CO2 and H2S as a function of chai.
+#### Figure 2- Calculated excess chemical potential of CO2 and H2S as a function of **χ**.
 <img width="1085" alt="Image" src="https://github.com/user-attachments/assets/e2ac6359-8da6-4d14-b995-f9d1176b8ec3" />
 
 
