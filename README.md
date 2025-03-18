@@ -23,9 +23,9 @@ To assess the performance of the current molecular parameters the excess chemica
 - The excess chemical potentials of CO2 and H2S in TIP4P/2005 and TIP4P-epsilon show almost the same, no wonder that in this test particle insertion, I did not first take into account the dissociation of CO2 in water. Besides, for united atoms, electrostatic interactions are not considered. This means electrostatic interactions play a great role in accurately describing the solubulity. Because of this, free energy calculations using Thermodynamic integration is recommended to study the effect of applying a water model that has a more realistic dielectric constant.
 
 To optimize cross interactions at 298.15 K and 1 atm, I used the following approach[6]:  
-$\sigma'_{aw} = \sigma_{aw} (1 + \chi)^{\frac{1}{6}}$
+<img src="https://render.githubusercontent.com/render/math?math=\sigma'_{aw} = \sigma_{aw} (1 + \chi)^{\frac{1}{6}}">
+<img src="https://render.githubusercontent.com/render/math?math=\epsilon'_{aw} = \frac{\epsilon_{aw}}{1 + \chi}">
 
-$\epsilon'_{aw} = \frac{\epsilon_{aw}}{1 + \chi}$
 
 
 
