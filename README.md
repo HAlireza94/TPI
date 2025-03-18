@@ -17,3 +17,7 @@ Here the results for the noble gas group where you can see the calculated excess
 
 ## Results
 <img width="1005" alt="Image" src="https://github.com/user-attachments/assets/46aac0aa-4bee-4205-a784-b95e72b93b76" />
+
+
+
+<img width="1085" alt="Image" src="https://github.com/user-attachments/assets/e2ac6359-8da6-4d14-b995-f9d1176b8ec3" />
