@@ -16,6 +16,7 @@ Here the results for the noble gas group where you can see the calculated excess
 
 
 ## Results
+Recently, I focused on optimizing two important gases in the world, CO2 and H2S. I started calculating excess chemical potential as a function of temperature in TIP4P/2005 water model, and then I tried to optimize the cross interactions at the ambient temperature and atmospheric pressure, where I could show that my results are describing efficiently the solubility of these gases at those conditions I mentioned, compared to the experimental data. Also, this is an ongoing – side project I started.
 
 
 
