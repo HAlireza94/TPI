@@ -10,7 +10,7 @@ Here the results for the noble gas group where you can see the calculated excess
 
 
 # Excess Chemical Potential of CO2 and H2S in Water  
-The release of carbon dioxide from fossil fuel combustion is a significant contributor to global warming. This concern has led to increasing interest in capturing and storing CO₂ from post-combustion and oxy-fuel combustion processes. Effective separation process design and optimization rely on a thorough understanding of the thermodynamic properties of phase equilibria. In the same token, H2S also plays a hazardous role in upstream and downstream industries, where efforts have been taken to address challenges related to H2S removal over the past years. Desining an efficient separation, often using liquid-liquid extraction (LLE), requires to have a deep understanding of the mechanism through which H2S dissolves in the solvent. Given this, the question arises: how can we expect to design an effective LLE process without sufficient molecular-level understanding of the solubility of these gases in a basic solvent such as water? Current united force fields appear to suffer delivering an accurate description of the thermodynamic properties of these gases, especially solubility. In this side project, I tried to optimize the cross-interactions between CO2/H2S + Water. The Lennard - Jones parameters for CO2 and H2S are taken from ref [1-2].
+The release of carbon dioxide from fossil fuel combustion is a significant contributor to global warming. This concern has led to increasing interest in capturing and storing CO₂ from post-combustion and oxy-fuel combustion processes. Effective separation process design and optimization rely on a thorough understanding of the thermodynamic properties of phase equilibria. In the same token, H2S also plays a hazardous role in upstream and downstream industries, where efforts have been taken to address challenges related to H2S removal over the past years. Desining an efficient separation, often using liquid-liquid extraction (LLE), requires to have a deep understanding of the mechanism through which H2S dissolves in the solvent. Given this, the question arises: how can we expect to design an effective LLE process without sufficient molecular-level understanding of the solubility of these gases in a basic solvent such as water? Current united force fields appear to suffer delivering an accurate description of the thermodynamic properties of these gases, especially solubility. In this side project, I tried to optimize the cross-interactions between CO2/H2S + Water. The Lennard - Jones parameters for CO2 and H2S are taken from ref [1-2]. To benchmark against experimental data, thermodynamic data is used from 
 
 
 ## Results
@@ -35,6 +35,7 @@ Recently, I focused on optimizing two important gases in the world, CO2 and H2S.
 ### References:
 [1] https://pubs.acs.org/doi/10.1021/jp204908d  
 [2] https://doi.org/10.1016/j.fluid.2016.08.002
+[3] https://link.springer.com/book/10.1007/978-1-4757-6550-2
 
 
 
