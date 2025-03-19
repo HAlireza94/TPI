@@ -1,0 +1,30 @@
+#!/bin/bash
+set -e
+
+echo "pull               = yes"
+echo "pull-ngroups       = 120"
+echo "pull-ncoords       = 120"
+echo " "
+for i in {1..120}
+do
+
+	echo "pull-group$i-name                 = ion$i"
+	echo "pull-coord$i-type                 = umbrella"
+	echo "pull-coord$i-geometry             = direction-periodic"
+	echo "pull-coord$i-vec                  = 0 0 1"
+	echo "pull-coord$i-groups               = 0 $i"
+	echo "pull-coord$i-origin               = 1.5 1.5 5" 
+	echo "pull-coord$i-dim                  = N N Y"
+	echo "pull-coord$i-k                    = 2.5"
+	echo " "
+
+done
+
+
+
+
+
+
+
+
+

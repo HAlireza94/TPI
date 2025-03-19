@@ -1,0 +1,10 @@
+#!/bin/bash
+
+for((i=0;i<11;i++));do
+	#echo "module load anaconda3/5.1.0" >> TPI-t$i/job-t$i.sh	
+	#echo "./config" >> TPI-t$i/job-t$i.sh
+	cd TPI-t$i	
+	#sbatch job-t$i.sh
+	rm out.gro
+	cd ..
+done

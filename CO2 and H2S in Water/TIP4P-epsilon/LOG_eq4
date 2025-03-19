@@ -1,0 +1,298 @@
+Wed Mar  5 17:26:22 CST 2025
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+                      :-) GROMACS - gmx grompp, 2020.7 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf      Artem Zhmurov   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2022, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx grompp, version 2020.7
+Executable:   /share/apps/gromacs/2020.7/bin/gmx
+Data prefix:  /share/apps/gromacs/2020.7
+Working dir:  /lustre/project/hanka/alireza/TIP4P-epsilon
+Command line:
+  gmx grompp -f mdp/eql-t4.mdp -o eql-t4 -po eql-t4 -pp eql-t4 -c min -t min -maxwarn 1
+
+Ignoring obsolete mdp entry 'domain-decomposition'
+Ignoring obsolete mdp entry 'ns_type'
+
+NOTE 1 [file mdp/eql-t4.mdp]:
+  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
+  that with the Verlet scheme, nstlist has no effect on the accuracy of
+  your simulation.
+
+
+WARNING 1 [file mdp/eql-t4.mdp]:
+  You are generating velocities so I am assuming you are equilibrating a
+  system. You are using Parrinello-Rahman pressure coupling, but this can
+  be unstable for equilibration. If your system crashes, try equilibrating
+  first with Berendsen pressure coupling. If you are not equilibrating the
+  system, you can probably ignore this warning.
+
+Setting the LD random seed to -1913135361
+Generated 6 of the 6 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 6 of the 6 1-4 parameter combinations
+Excluding 2 bonded neighbours molecule type 'SOL'
+Velocities were taken from a Maxwell distribution at 298 K
+Cleaning up constraints and constant bonded interactions with virtual sites
+Number of degrees of freedom in T-Coupling group System is 1593.00
+Reading Coordinates and Box size from old trajectory
+Will read whole trajectory
+Velocities generated: ignoring velocities in input trajectory
+trr version: GMX_trn_file (single precision)
+Reading frame       0 time 2155.000   Last frame          0 time 2155.000   
+Using frame at t = 2155 ps
+Starting time for run is 0 ps
+Estimate for the relative computational load of the PME mesh part: 0.21
+
+There was 1 note
+
+There was 1 warning
+
+GROMACS reminds you: "Wait a Minute, aren't You.... ? (gunshots) Yeah." (Bodycount)
+
+turning all bonds and angles into constraints...
+Analysing residue names:
+There are:   266      Water residues
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 310 K
+Calculated rlist for 1x1 atom pair-list as 0.900 nm, buffer size 0.000 nm
+Set rlist, assuming 4x4 atom pair-list, to 0.900 nm, buffer size 0.000 nm
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 20x20x20, spacing 0.100 0.100 0.100
+This run will generate roughly 75 Mb of data
+                      :-) GROMACS - gmx mdrun, 2020.7 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf      Artem Zhmurov   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2022, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx mdrun, version 2020.7
+Executable:   /share/apps/gromacs/2020.7/bin/gmx
+Data prefix:  /share/apps/gromacs/2020.7
+Working dir:  /lustre/project/hanka/alireza/TIP4P-epsilon
+Command line:
+  gmx mdrun -deffnm eql-t4
+
+Reading file eql-t4.tpr, VERSION 2020.7 (single precision)
+
+NOTE: Parallelization is limited by the small number of atoms,
+      only starting 10 thread-MPI ranks.
+      You can use the -nt and/or -ntmpi option to optimize the number of threads.
+
+Using 10 MPI threads
+Using 2 OpenMP threads per tMPI thread
+
+starting mdrun 'UFF MOLECULE in water'
+2500000 steps,   5000.0 ps.
+
+Writing final coordinates.
+
+
+Dynamic load balancing report:
+ DLB got disabled because it was unsuitable to use.
+ Average load imbalance: 7.4%.
+ The balanceable part of the MD step is 34%, load imbalance is computed from this.
+ Part of the total run time spent waiting due to load imbalance: 2.5%.
+
+
+NOTE: 32 % of the run time was spent in domain decomposition,
+      25 % of the run time was spent in pair search,
+      you might want to increase nstlist (this has no effect on accuracy)
+
+               Core t (s)   Wall t (s)        (%)
+       Time:    36129.215     1806.462     2000.0
+                         30:06
+                 (ns/day)    (hour/ns)
+Performance:      239.142        0.100
+
+GROMACS reminds you: "Meet Me At the Coffee Shop" (Red Hot Chili Peppers)
+
+                      :-) GROMACS - gmx grompp, 2020.7 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf      Artem Zhmurov   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2022, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx grompp, version 2020.7
+Executable:   /share/apps/gromacs/2020.7/bin/gmx
+Data prefix:  /share/apps/gromacs/2020.7
+Working dir:  /lustre/project/hanka/alireza/TIP4P-epsilon
+Command line:
+  gmx grompp -f mdp/prd-t4.mdp -o prd-t4 -po prd-t4 -pp prd-t4 -c eql-t4 -t eql-t4
+
+Ignoring obsolete mdp entry 'domain-decomposition'
+Ignoring obsolete mdp entry 'ns_type'
+
+NOTE 1 [file mdp/prd-t4.mdp]:
+  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
+  that with the Verlet scheme, nstlist has no effect on the accuracy of
+  your simulation.
+
+Setting the LD random seed to -33734953
+Generated 6 of the 6 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 6 of the 6 1-4 parameter combinations
+Excluding 2 bonded neighbours molecule type 'SOL'
+Cleaning up constraints and constant bonded interactions with virtual sites
+Number of degrees of freedom in T-Coupling group System is 1593.00
+Reading Coordinates, Velocities and Box size from old trajectory
+Will read whole trajectory
+Last frame         -1 time 5000.000   
+Using frame at t = 5000 ps
+Starting time for run is 0 ps
+Estimate for the relative computational load of the PME mesh part: 0.26
+
+There was 1 note
+
+GROMACS reminds you: "Meet Me At the Coffee Shop" (Red Hot Chili Peppers)
+
+turning all bonds and angles into constraints...
+Analysing residue names:
+There are:   266      Water residues
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 310 K
+Calculated rlist for 1x1 atom pair-list as 0.900 nm, buffer size 0.000 nm
+Set rlist, assuming 4x4 atom pair-list, to 0.900 nm, buffer size 0.000 nm
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 24x24x24, spacing 0.084 0.084 0.084
+This run will generate roughly 1232 Mb of data
+                      :-) GROMACS - gmx mdrun, 2020.7 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf      Artem Zhmurov   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2022, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx mdrun, version 2020.7
+Executable:   /share/apps/gromacs/2020.7/bin/gmx
+Data prefix:  /share/apps/gromacs/2020.7
+Working dir:  /lustre/project/hanka/alireza/TIP4P-epsilon
+Command line:
+  gmx mdrun -deffnm prd-t4
+
+Reading file prd-t4.tpr, VERSION 2020.7 (single precision)
+
+NOTE: Parallelization is limited by the small number of atoms,
+      only starting 10 thread-MPI ranks.
+      You can use the -nt and/or -ntmpi option to optimize the number of threads.
+
+Using 10 MPI threads
+Using 2 OpenMP threads per tMPI thread
+
+starting mdrun 'UFF MOLECULE in water'
+25000000 steps,  50000.0 ps.
+
+Writing final coordinates.
+
+
+Dynamic load balancing report:
+ DLB got disabled because it was unsuitable to use.
+ Average load imbalance: 7.6%.
+ The balanceable part of the MD step is 34%, load imbalance is computed from this.
+ Part of the total run time spent waiting due to load imbalance: 2.6%.
+
+
+NOTE: 32 % of the run time was spent in domain decomposition,
+      24 % of the run time was spent in pair search,
+      you might want to increase nstlist (this has no effect on accuracy)
+
+               Core t (s)   Wall t (s)        (%)
+       Time:   366378.064    18318.904     2000.0
+                         5h05:18
+                 (ns/day)    (hour/ns)
+Performance:      235.822        0.102
+
+GROMACS reminds you: "I didn't want to just know names of things. I remember really wanting to know how it all worked." (Elizabeth Blackburn)
+

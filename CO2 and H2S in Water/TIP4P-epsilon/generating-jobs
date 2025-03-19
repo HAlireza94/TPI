@@ -1,0 +1,34 @@
+#!/bin/bash
+
+
+for((i=1;i<11;i++));do
+	
+	rm job-t$i.sh
+
+done
+
+
+
+mkdir nnn
+
+for((i=0;i<11;i++));do
+
+	cp job.sh nnn
+	cd nnn
+	mv job.sh job-t$i.sh
+	vim -c ":e job-t$i.sh" -c ":%s/#SBATCH --job-name=generating-RE                    # Job Name/#SBATCH --job-name=T$i                          # Job Name/g" -c ":wq"
+	echo "gmx grompp -f mdp/eql-t$i.mdp -o eql-t$i -po eql-t$i -pp eql-t$i -c min -t min -maxwarn 1" >> job-t$i.sh
+	echo "gmx mdrun -deffnm eql-t$i" >> job-t$i.sh
+	
+	echo "gmx grompp -f mdp/prd-t$i.mdp -o prd-t$i -po prd-t$i -pp prd-t$i -c eql-t$i -t eql-t$i" >> job-t$i.sh
+	echo "gmx mdrun -deffnm prd-t$i" >> job-t$i.sh
+	mv job-t$i.sh ../
+	cd ..
+
+done
+
+rm -r nnn
+
+
+
+

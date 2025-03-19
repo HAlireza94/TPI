@@ -1,0 +1,5 @@
+  File "/share/apps/idev/bin/env_replicate.py", line 30
+    print "%s [home directory] [user id]" % (sys.argv[0])
+                                        ^
+SyntaxError: invalid syntax
+slurmstepd: *** JOB 2660087 CANCELLED AT 2025-03-05T11:47:39 ***

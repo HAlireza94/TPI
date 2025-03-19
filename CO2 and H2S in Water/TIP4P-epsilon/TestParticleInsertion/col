@@ -1,0 +1,12 @@
+#!/bin/bash
+
+for((i=0;i<11;i++));do
+	cd TPI-t$i
+	cp Results ../ANAL
+	cd ..
+	cd ANAL
+	mv Results Results-t$i
+	cd ..
+done
+
+

@@ -1,0 +1,32 @@
+#!/bin/bash
+
+for((i=1;i<34;i++));do
+
+rm prd-t$i.mdp
+
+done
+
+vim -c ":e prd-t0.mdp" -c ":%s/ref-t                    = 277.15/ref-t                    = 270/g" -c ":wq"
+
+mkdir nnn
+cp prd-t0.mdp nnn
+cd nnn
+
+for((i=1;i<11;i++));do
+
+	mv prd-t$((i-1)).mdp prd-t$i.mdp
+	vim -c ":e prd-t$i.mdp" -c ":%s/ref-t                    = $(echo "scale=2; ((($i-1)*10))+270" | bc)/ref-t                    = $(echo "scale=2; (($i*10))+270" | bc)/g" -c ":wq"
+	ss=$(echo "scale=2; $i*10 + 270" | bc)
+	echo "$ss"
+	cp prd-t$i.mdp \..
+
+done
+
+cd ..
+rm -r nnn
+
+
+
+
+
+

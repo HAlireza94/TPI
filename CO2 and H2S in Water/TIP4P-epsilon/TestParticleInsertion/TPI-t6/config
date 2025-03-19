@@ -1,0 +1,25 @@
+#!/bin/bash
+
+rm Results
+T=330
+numWater=266
+numInsertion=10000
+
+sigma=(3.47165)
+epsilon=(189.7815586)
+soluteNames=("H2S")
+numSolutes=1
+
+
+echo "Solutes             Excess-mio        Uncertaintity" >> Results
+
+for((i=0;i<$numSolutes;i++));do
+	rc=$(echo "scale=6; ${sigma[i]} * 2.5" | bc) # This is the rule of thumb (which is 2.5 of sigma)
+	mio=$(python TPI.py $numWater $T $numInsertion ${sigma[i]}  ${epsilon[i]} $rc < out.gro)
+	echo "${soluteNames[i]}      $mio" >> Results	
+done
+
+
+
+
+
